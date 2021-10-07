@@ -349,3 +349,26 @@ nav {
 		}
 	}
 }
+
+.cities {
+	position: relative;
+	height: 717px;
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
+	background: url(../img/end_background.jpg) center center / cover no-repeat;
+	&_subheader {
+		font-size: 17px;
+		font-weight: normal;
+		line-height: 1.24;
+	}
+	&_link {
+		position: absolute;
+		bottom: 50px;
+		font-size: 15px;
+		font-weight: normal;
+		color: #1fbad6;
+		text-transform: uppercase;
+		transform: translate(-50%, 0);
+	}
+}
