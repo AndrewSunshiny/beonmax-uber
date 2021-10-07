@@ -260,3 +260,38 @@ nav {
 		}
 	}
 }
+
+.passabilities {
+	text-align: center;
+	&_start {
+		position: relative;
+		height: 498px;
+		padding-top: 55px;
+		background-color: #070716;
+		color: #fff;
+		&_subheader {
+			margin-top: 20px;
+			font-size: 17px;
+			font-weight: normal;
+		}
+		&_img {
+			position: absolute;
+			bottom: -120px;
+			left: 50%;
+			display: block;
+			width: 550px;
+			transform: translate(-50%, 0);
+		}
+	}
+	&_main {
+		height: 397px;
+		padding-top: 160px;
+		background: url(../img/main_background.jpg) center center;
+		background-size: auto;
+		&_text {
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 1.41;
+		}
+	}
+}
