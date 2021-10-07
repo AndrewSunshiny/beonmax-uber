@@ -1,0 +1,66 @@
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 50px;
+	width: 100%;
+	background-color: #212121;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	margin: 0;
+	padding-left: 70px;
+	padding-right: 70px;
+	list-style-type: none;
+	&_item {
+		align-self: center;
+		height: 31px;
+		border-right: 2px dotted #000;
+		padding-right: 28px;
+		&:last-child {
+			border-right: none;
+		}
+	}
+	&_link {
+		font-size: 15px;
+		font-weight: 300;
+		color: #ffffff;
+	}
+}
+.subheader {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	&_logo {
+		display: block;
+		min-width: 100%;
+	}
+	&_official {
+		margin-top: 6px;
+		font-size: 13px;
+		font-weight: 100;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	&_call {
+		font-size: 12px;
+		font-weight: 300;
+		text-align: right;
+		color: #ffffff;
+	}
+	&_phone {
+		display: block;
+		font-family: Roboto;
+		font-size: 22px;
+		font-weight: normal;
+		text-align: right;
+		&.xs-visible {
+			display: none;
+		}
+	}
+}
+
