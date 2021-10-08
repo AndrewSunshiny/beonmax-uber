@@ -304,3 +304,69 @@
 		}
 	}
 }
+@media (max-width: 575px) {
+	.menu {
+		width: 100%;
+	}
+	.promo {
+		&_header {
+			font-size: 30px;
+		}
+		&_subheader {
+			font-size: 20px;
+		}
+		&_description {
+			display: none;
+		}
+		&_btn {
+			height: 50px;
+			width: 210px;
+			font-size: 16px;
+		}
+	}
+	.advantages {
+		&_item {
+			&_header {
+				position: static;
+				transform: none;
+				width: 75%;
+
+				margin: 0 auto;
+			}
+			&_info {
+				margin-top: 20px;
+			}
+		}
+	}
+	.passabilities {
+		&_start {
+			&_img {
+				width: 100%;
+			}
+		}
+	}
+	.cities {
+		height: 300px;
+	}
+	.footer {
+		height: 270px;
+		&_main {
+			&_sublinks {
+				a {
+					display: block;
+					height: 20px;
+				}
+			}
+		}
+		&_mobile-store {
+			width: 300px;
+			margin-top: 10px;
+			a {
+				width: 90px;
+				img {
+					width: 90px;
+				}
+			}
+		}
+	}
+}
